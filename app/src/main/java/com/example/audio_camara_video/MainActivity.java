@@ -2,6 +2,7 @@ package com.example.audio_camara_video;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick (View view) {
         switch (view.getId()){
